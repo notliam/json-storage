@@ -1,8 +1,8 @@
 var assert = require('assert');
 
-var jsonstorage = require('./json-storage').init();
+var jsonstorage = require('./storage-json').init();
 
-describe('Jsonstorage', function() {
+describe('storage-json', function() {
   describe('#drop_database()', function() {
     it('should return true (so the test starts off from a clean slate)', function() {
       assert.equal(true, jsonstorage.drop_database());
