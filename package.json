@@ -1,6 +1,6 @@
 {
   "name": "storage-json",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Store data locally - insert, select, update, delete data objects with ease",
   "scripts": {
     "test": "mocha test.js"
