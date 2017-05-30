@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var jsonstorage = require('./index').init();
+var jsonstorage = require('./json-storage').init();
 
 describe('Jsonstorage', function() {
   describe('#drop_database()', function() {
