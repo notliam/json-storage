@@ -1,0 +1,25 @@
+{
+  "name": "json-storage",
+  "version": "0.0.1",
+  "description": "Store data using JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "Liam MacDonald (https://github.com/notliam)",
+  "keywords": [
+    "json",
+    "storage",
+    "db",
+    "database",
+    "save",
+    "insert",
+    "select",
+    "update",
+    "delete"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "promise": "^7.1.1"
+  }
+}
